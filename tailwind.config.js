@@ -5,6 +5,10 @@ module.exports = {
     "./resources/**/*.vue",
     "./node_modules/flowbite/**/*.js"
   ],
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+  },
   theme: {
     extend: {
       fontFamily : {
